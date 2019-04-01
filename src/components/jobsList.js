@@ -7,27 +7,27 @@ export default class JobsList extends React.Component {
   	"offers": [
     	{
     	  "id": "0001",
-        "name": "Asesor comercial de hipermercado",
+        "name": "Manager",
     	  "company": "Schneider Electric", 
     	  "salary": 4.5,
     	  "city": "Bogotá, Colombia",
-        "date": "15/02/2019"
+        "date": "2019-03-26"
       }, 
       {
         "id": "0002",
-        "name": "Desarrollador de software",
+        "name": "Software Engineer",
         "company": "Google Inc.", 
         "salary": 20,
         "city": "Palo Alto, CA, USA",
-        "date": "23/03/2019"
+        "date": "2019-03-27"
       },
       {
         "id": "0003",
-        "name": "Enfermera",
+        "name": "Nurse",
         "company": "Clínica La Aurora", 
         "salary": 1,
         "city": "Cali, Colombia",
-        "date": "23/03/2019"
+        "date": "2019-03-28"
       }
     ]
   };
@@ -35,15 +35,15 @@ export default class JobsList extends React.Component {
   render() {
     return (
       <div>
-        <table class="table">
-          <thead class="thead-dark">
+        <table className="table">
+          <thead className="thead-dark">
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Nombre del cargo</th>
-              <th scope="col">Empresa</th>
-              <th scope="col">Salario</th>
+              <th scope="col">Position</th>
+              <th scope="col">Company</th>
+              <th scope="col">Salary</th>
               <th scope="col">Ciudad</th>
-              <th scope="col">Fecha de publicación</th>
+              <th scope="col">Publicacition date</th>
             </tr>
           </thead>
           <tbody>
