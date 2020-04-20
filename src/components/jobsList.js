@@ -44,6 +44,7 @@ export default class JobsList extends React.Component {
               <th scope="col">Salary</th>
               <th scope="col">City</th>
               <th scope="col">Publication date</th>
+              <th scope="col">Número de visitas</th>
             </tr>
           </thead>
           <tbody>

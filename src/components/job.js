@@ -1,5 +1,5 @@
 import React from 'react';
-import {FormattedDate} from 'react-intl';
+import {FormattedDate, FormattedNumber} from 'react-intl';
 
 export default class Job extends React.Component {
 
@@ -20,6 +20,7 @@ export default class Job extends React.Component {
 						weekday='long'
 					/>
 				</td>
+				<td><FormattedNumber value={Math.floor(Math.random() * (100000 - 500) + 500)} /></td>
   			</tr>
   		);
 	}
