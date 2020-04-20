@@ -1,5 +1,6 @@
 import React from 'react';
 import Job from "./job";
+import {FormattedMessage} from 'react-intl';
 
 export default class JobsList extends React.Component {
 
@@ -39,12 +40,12 @@ export default class JobsList extends React.Component {
           <thead className="thead-dark">
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Position</th>
-              <th scope="col">Company</th>
-              <th scope="col">Salary</th>
-              <th scope="col">City</th>
-              <th scope="col">Publication date</th>
-              <th scope="col">Número de visitas</th>
+              <th scope="col"><FormattedMessage id="Position"/></th>
+              <th scope="col"><FormattedMessage id="Company"/></th>
+              <th scope="col"><FormattedMessage id="Salary"/></th>
+              <th scope="col"><FormattedMessage id="City"/></th>
+              <th scope="col"><FormattedMessage id="PulibicationDate"/></th>
+              <th scope="col"><FormattedMessage id="Views"/></th>
             </tr>
           </thead>
           <tbody>
