@@ -37,7 +37,7 @@ export default class JobsList extends React.Component {
     return (
       <div>
         <table className="table">
-          <thead className="thead-dark">
+          <thead className={ navigator.language.startsWith("es") ? "thead-light" : "thead-dark" }>
             <tr>
               <th scope="col">#</th>
               <th scope="col"><FormattedMessage id="Position"/></th>
